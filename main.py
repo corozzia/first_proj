@@ -3,6 +3,7 @@ import pygame
 back = pygame.image.load("images/New Piskel.png")
 width = 1000
 height = 800
+score = 0
 pygame.font.init()
 font_1 = pygame.font.SysFont('arial black', 45)
 text_score = font_1.render("score: 0", True, (34, 55, 123))
